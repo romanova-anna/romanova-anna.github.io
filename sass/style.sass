@@ -1,6 +1,6 @@
 
-.container
-    max-width: 1114px
+// .container
+//     max-width: 1114px
 
 .slider
     background-image: url(../img/background.jpg)
@@ -11,25 +11,30 @@
     height: 100vh
 
 .s1
-    height: 100vh
+    padding-left: 0px !important
+    padding-right: 0px !important
 
 .nav
-    padding-top: 20px
+    padding-top: 30px
 
 #Bouncy
     text-transform: uppercase
     font-family: 'big_johnregular'
     font-size: 30px
-    font-weight: 400
+    font-weight: 300
     margin: 0
+
 
 .nav-item
     border: 1px solid transparent
+    letter-spacing: 0.5px
 
 .text-white
     font-family: 'open_sansregular'
-    font-size: 15px
+    font-size: 16px
     font-weight: 400
+    padding-left: 4px !important
+    padding-right: 4px !important
     padding-top: 2px !important
     padding-bottom: 3px !important
 
@@ -44,72 +49,87 @@
     // padding-right: 0px;
 
 .text1
-    padding-top: 15%
+    padding-top: 16.2%
     // переделать ширину
 
 #code
     color: #ffffff
     text-transform: uppercase
-    font-family: 'source_sans_prolight'
-    font-size: 33px
-    letter-spacing: 7px
+    font-family: 'Source Sans Pro'
+    font-size: 38px
+    letter-spacing: 5px
 
 .text2
-    padding-top: 18px
+    padding-top: 14px
     color: #ffffff
     font-family: 'open_sansregular'
     font-size: 15px
-    font-weight: 400
-    line-height: 26.57px
+    font-weight: 600
+    line-height: 28px
     letter-spacing: 0.8px
 
 .text3
     position: absolute
-    top: 85%
-    left: 50%
+    top: 93%
+    left: 48.8%
 
 .about
     background-color: #ffffff
 
 .aboutrow
-    height: 463px
+    height: 470px
 
 %sans
-    font-family: 'source_sans_prolight'
+    font-family: 'Source Sans Pro'
     color: #333b46
     font-size: 19px
     font-weight: 300
     line-height: 11.39px
     text-transform: uppercase
-    letter-spacing: 4px
+
+.aboutpl
+    padding-top: 1.5%
 
 .this
     @extend %sans
+    padding-top: 6.5%
 
 %open
     color: #81868e
     font-family: 'open_sansregular'
-    font-size: 13px
-    font-weight: 400
+    font-size: 14px
+    font-weight: 600
     line-height: 23.72px
     letter-spacing: 0.7px
 
 .text4
     @extend %open
-    padding-top: 40px
+    padding-top: 4%
+    line-height: 24.5px
+    letter-spacing: 0.6px
+
+.btn1
+    padding-top: 2%
+    padding-bottom: 9%
 
 .btn
     border-radius: 16px !important
+    padding-left: 6%
+    padding-right: 6%
+    font-family: 'open_sansregular'
+    font-size: 16px
+    font-weight: 700
+
 
 .aboutdetails
     background-color: #f3f3f3
-    height: 585px
+    height: 595px
 
 .detailstext
     @extend %sans
 
 .text5
-    padding-top: 70px
+    padding-top: 66px
 
 .text6
     @extend %open
@@ -117,24 +137,39 @@
 %open1
     color: #464646
     font-family: 'open_sansregular'
-    font-size: 19px
+    font-size: 20px
     font-weight: 400
-    line-height: 118.6px
     letter-spacing: 0.8px
 
+.svgrow
+    padding-top: 2.5rem
+
+.row89
+    padding-top: 0.6%
+
 .text7
+    padding-left: 4%
+    padding-top: 4.7%
     @extend %open1
+    font-weight: 800
 
 .text8
     color: #81868e
     font-family: 'open_sansregular'
-    font-size: 15px
-    font-weight: 400
+    font-size: 16px
+    font-weight: 600
     line-height: 26.57px
     letter-spacing: 0.8px
+    padding-left: 5.4%
 
 .text9
-    @extend %open
+    color: #81868e
+    font-family: 'open_sansregular'
+    font-size: 14px
+    font-weight: 600
+    line-height: 24.72px
+    letter-spacing: 0.7px
+    padding-left: 2.7%
 
 .vero
     font-weight: 700
@@ -149,42 +184,92 @@
 .work
     background-color: white
     // height: 634px;
-
-.work1
-    height: 223px
+    padding-bottom: 3%
 
 .text10
     @extend %sans
+    padding-top: 5.85%
+    letter-spacing: .7px
+    font-size: 13px !important
 
 .text11
     @extend %open
+    padding-top: 1.4%
+
+.work2
+    height: 415px
+
+.photowork
+    height: 305px
+
+.legs
+    background-image: url(../img/legs.jpg)
+    height: 108px
+    background-repeat: no-repeat
+    background-size: cover
+
+.legs1
+    padding-top: 3.4%
+    padding-left: 4.4%
+
+.submit
+    color: #ffffff
+    font-family: 'open_sansregular'
+    font-size: 18px
+    font-weight: 400
+    letter-spacing: 0.6px
+
+.btnlegs
+    padding-left: 6.5%
+    
+
+.text10a
+    @extend %sans
+    padding-top: 6.1%
+    letter-spacing: .7px
+    font-size: 13px !important
+
+.text11a
+    @extend %open
+    padding-top: 1.5%
+
+.icons
+    padding-top: 3%
+    padding-bottom: 11%
 
 .icon
     padding-bottom: 15px
+    padding-left: 70%
 
 .graphic
     color: #464646
     font-family: 'open_sansregular'
-    font-size: 19px
+    font-size: 20px
     font-weight: 600
     letter-spacing: 0.8px
+    padding-left: 4rem
 
 .at
     padding-top: 28px
     text-align: left
     color: #81868e
     font-family: 'open_sansregular'
-    font-size: 15px
+    font-size: 16px
     font-weight: 500
     letter-spacing: 0.8px
+    padding-left: 4rem
 
 .quos
     padding-top: 36px
     color: #81868e
     font-family: 'open_sansregular'
-    font-size: 13px
+    font-size: 15px
     font-weight: 500
     letter-spacing: 0.7px
+    padding-left: 4rem
+
+.chartrow
+    padding-left: 1%
 
 .chart
     display: flex
@@ -220,27 +305,27 @@
 .circular-chart .circle
     stroke: #3a9093
 
+
 .percentage
     fill: #666
     font-family: sans-serif
     font-size: 0.5em
     text-anchor: middle
 
-.legs
-    background-image: url(../img/legs.jpg)
-    height: 108px
-    background-repeat: no-repeat
-    background-size: cover
-
-.legs1
-    padding-top: 35px
-
-.submit
-    color: #ffffff
-    font-family: 'open_sansregular'
-    font-size: 19px
+.namerow
+    padding-top: 2%
+    padding-left: 10%
+    font-family: 'Roboto'
+    font-size: 15px
     font-weight: 400
+    color: #81868e
     letter-spacing: 0.8px
+
+.name1
+    padding-right: 20%
+
+.name2
+    padding-right: 22%
 
 .services
     background-color: #f3f3f3
@@ -250,7 +335,7 @@
 
 .team
     background-image: url(../img/123.jpg)
-    height: 190px
+    height: 195px
     background-repeat: no-repeat
     background-size: cover
 
@@ -261,14 +346,29 @@
     font-weight: 400
     line-height: 23.72px
     letter-spacing: 0.8px
-    padding-top: 5%
+    padding-top: 4%
+
+.already-bt
+    padding-top: 2rem
+
+.text10b
+    @extend %sans
+    padding-top: 4%
+    letter-spacing: .7px
+    font-size: 13px !important
 
 .price
     background-color: #f3f3f3
 
 .cardprice
-    padding-left: 0px
+    padding-left: 0%
     padding-right: 0px
+    // display: flex
+    // flex-wrap: wrap
+    // min-width: 100px
+
+.card-h
+    height: 127%
 
 .card
     border: 0px
@@ -290,7 +390,7 @@
     font-size: 40px
     font-weight: 1000
     letter-spacing: normal
-    font-family: 'source_sans_prolight'
+    font-family: 'Source Sans Pro'
     text-decoration: uppercase
     padding-top: 30px
 
