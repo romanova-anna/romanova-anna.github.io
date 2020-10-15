@@ -1,0 +1,548 @@
+.slider {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.s1 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.nav {
+  padding-top: 30px;
+}
+
+#Bouncy {
+  text-transform: uppercase;
+  font-family: 'big_johnregular';
+  font-size: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.nav-item {
+  border: 1px solid transparent;
+  letter-spacing: 0.5px;
+}
+
+.text-white {
+  font-family: 'open_sansregular';
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  padding-top: 2px !important;
+  padding-bottom: 3px !important;
+}
+
+.active {
+  border-radius: 16px;
+  border: 1px solid #ffffff;
+}
+
+.nav-item:hover {
+  border-radius: 16px;
+  border: 1px solid #ffffff;
+}
+
+.text1 {
+  padding-top: 16.2%;
+}
+
+#code {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro';
+  font-size: 38px;
+  letter-spacing: 5px;
+}
+
+.text2 {
+  padding-top: 14px;
+  color: #ffffff;
+  font-family: 'open_sansregular';
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+}
+
+.text3 {
+  position: absolute;
+  top: 85%;
+  left: 48.8%;
+}
+
+.about {
+  background-color: #ffffff;
+}
+
+.aboutrow {
+  height: 470px;
+}
+
+.this, .detailstext, .text10, .text10a, .text10b {
+  font-family: 'Source Sans Pro';
+  color: #333b46;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 11.39px;
+  text-transform: uppercase;
+}
+
+.aboutpl {
+  padding-top: 1.5%;
+}
+
+.this {
+  padding-top: 6.5%;
+}
+
+.text4, .text6, .text11, .text11a, .text15 a {
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23.72px;
+  letter-spacing: 0.7px;
+}
+
+.text4 {
+  padding-top: 4%;
+  line-height: 24.5px;
+  letter-spacing: 0.6px;
+}
+
+.btn1 {
+  padding-top: 2%;
+  padding-bottom: 9%;
+}
+
+.btn {
+  border-radius: 16px !important;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-family: 'open_sansregular';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.aboutdetails {
+  background-color: #f3f3f3;
+  height: 595px;
+}
+
+.text5 {
+  padding-top: 66px;
+}
+
+.text7 {
+  color: #464646;
+  font-family: 'open_sansregular';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+
+.svgrow {
+  padding-top: 2.5rem;
+}
+
+.row89 {
+  padding-top: 0.6%;
+}
+
+.text7 {
+  padding-left: 4%;
+  padding-top: 4.7%;
+  font-weight: 800;
+}
+
+.text8 {
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26.57px;
+  letter-spacing: 0.8px;
+  padding-left: 5.4%;
+}
+
+.text9 {
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24.72px;
+  letter-spacing: 0.7px;
+  padding-left: 2.7%;
+}
+
+.vero {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #19bd9a;
+}
+
+.ducimus {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #636971;
+}
+
+.work {
+  background-color: white;
+  padding-bottom: 3%;
+}
+
+.text10 {
+  padding-top: 5.85%;
+  letter-spacing: .7px;
+  font-size: 13px !important;
+}
+
+.text11 {
+  padding-top: 1.4%;
+}
+
+.work2 {
+  height: 415px;
+}
+
+.photowork {
+  height: 305px;
+}
+
+.legs {
+  background-image: url(../img/legs.jpg);
+  height: 108px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.legs1 {
+  padding-top: 3.4%;
+  padding-left: 4.4%;
+}
+
+.submit {
+  color: #ffffff;
+  font-family: 'open_sansregular';
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
+
+.btnlegs {
+  padding-left: 6.5%;
+}
+
+.text10a {
+  padding-top: 6.1%;
+  letter-spacing: .7px;
+  font-size: 13px !important;
+}
+
+.text11a {
+  padding-top: 1.5%;
+}
+
+.icons {
+  padding-top: 3%;
+  padding-bottom: 11%;
+}
+
+.icon {
+  padding-bottom: 15px;
+  padding-left: 70%;
+}
+
+.graphic {
+  color: #464646;
+  font-family: 'open_sansregular';
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  padding-left: 4rem;
+}
+
+.at {
+  padding-top: 28px;
+  text-align: left;
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  padding-left: 4rem;
+}
+
+.quos {
+  padding-top: 36px;
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  padding-left: 4rem;
+}
+
+.chartrow {
+  padding-left: 1%;
+}
+
+.chart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-chart {
+  padding-top: 40px;
+  width: 33%;
+  justify-content: center;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #1cbd9b;
+  stroke-width: 1.0;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 0.8;
+  stroke-linecap: round;
+  stroke: #3a9093;
+  animation: progress 10s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 100 0;
+  }
+}
+
+.circular-chart .circle {
+  stroke: #3a9093;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+.namerow {
+  padding-top: 2%;
+  padding-left: 10%;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #81868e;
+  letter-spacing: 0.8px;
+}
+
+.name1 {
+  padding-right: 20%;
+}
+
+.name2 {
+  padding-right: 22%;
+}
+
+.services {
+  background-color: #f3f3f3;
+}
+
+.accusamus {
+  font-weight: 700;
+}
+
+.team {
+  background-image: url(../img/123.jpg);
+  height: 195px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.already {
+  color: #ffffff;
+  font-family: 'open_sansregular';
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 23.72px;
+  letter-spacing: 0.8px;
+  padding-top: 4%;
+}
+
+.already-bt {
+  padding-top: 2rem;
+}
+
+.text10b {
+  padding-top: 4%;
+  letter-spacing: .7px;
+  font-size: 13px !important;
+}
+
+.price {
+  background-color: #f3f3f3;
+}
+
+.cardprice {
+  padding-left: 0%;
+  padding-right: 0px;
+}
+
+.card-h {
+  height: 127%;
+}
+
+.card {
+  border: 0px;
+}
+
+.pricecard {
+  background-color: #19bd9a;
+  height: 40px;
+  min-height: 60px;
+  padding-top: 17px;
+  color: #ffffff;
+  font-family: 'open_sansregular';
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 23.72px;
+  letter-spacing: 0.8px;
+}
+
+.bold {
+  color: #1fbba6;
+  font-size: 40px;
+  font-weight: 1000;
+  letter-spacing: normal;
+  font-family: 'Source Sans Pro';
+  text-decoration: uppercase;
+  padding-top: 30px;
+}
+
+.titleone {
+  margin-bottom: 0px;
+}
+
+.per {
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.perx {
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-weight: 500;
+  text-align: left;
+  padding: 15px;
+}
+
+.contacts {
+  color: #464646;
+  font-family: 'open_sansregular';
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+
+.contact_text a {
+  color: #81868e;
+  font-family: 'open_sansregular';
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.contact_text a:hover {
+  color: #1fbba6;
+  text-decoration: underline;
+}
+
+.contact_text a:active {
+  color: #697a76;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.contact {
+  background-color: #ffffff;
+}
+
+.name {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.area {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.topleft {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+.area1 {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  background-color: #19bd9a;
+}
+
+.map {
+  background-image: url(../img/map2.jpg);
+  height: 472px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textmap {
+  padding-top: 15%;
+}
+
+.textmap a {
+  color: #ffffff;
+  font-family: 'open_sansregular';
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.find {
+  padding-top: 18%;
+  padding-bottom: 18%;
+}
+
+.footer {
+  background-color: #f3f3f3;
+  height: 229px;
+}
+
+#bouncy1 {
+  color: #323a45;
+  font-family: 'big_johnregular';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 11.39px;
+}
