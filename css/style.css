@@ -227,10 +227,6 @@ a.btn1:hover {
   padding-top: 1.4%;
 }
 
-.work2 {
-  height: 415px;
-}
-
 #vintage {
   position: absolute;
   top: 45%;
@@ -251,10 +247,6 @@ a.btn1:hover {
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 3px;
-}
-
-.photowork {
-  height: 305px;
 }
 
 .legs {
@@ -425,7 +417,7 @@ a.btn1:hover {
   font-weight: 400;
   line-height: 23.72px;
   letter-spacing: 0.8px;
-  padding-top: 4%;
+  padding-top: 3%;
 }
 
 .already-bt {
@@ -589,7 +581,7 @@ a.btn1:hover {
 }
 
 .textmap {
-  padding-top: 15%;
+  transform: translateY(750%);
 }
 
 .textmap a {
