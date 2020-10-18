@@ -1,0 +1,17 @@
+@media (max-width: 950px) {
+    .contact {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .photo {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+

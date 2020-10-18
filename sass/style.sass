@@ -1,13 +1,8 @@
-
-// .container
-//     max-width: 1114px
-
 .slider
     background-image: url(../img/background.jpg)
     background-repeat: no-repeat
     background-size: cover
     background-attachment: fixed
-    // width: 100%;
     height: 100vh
 
 .s1
@@ -23,7 +18,6 @@
     font-size: 30px
     font-weight: 300
     margin: 0
-
 
 .nav-item
     border: 1px solid transparent
@@ -45,12 +39,9 @@
 .nav-item:hover
     border-radius: 16px
     border: 1px solid #ffffff
-    // padding-left: 20px;
-    // padding-right: 0px;
 
 .text1
     padding-top: 16.2%
-    // переделать ширину
 
 #code
     color: #ffffff
@@ -108,7 +99,7 @@
     line-height: 24.5px
     letter-spacing: 0.6px
 
-.btn1
+.btnrow
     padding-top: 2%
     padding-bottom: 9%
 
@@ -120,6 +111,16 @@
     font-size: 16px
     font-weight: 700
 
+.btn1
+    padding: 0.375rem 0.75rem
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    border: 1px solid black
+
+a.btn1:hover
+    color: white
+    background-color: #19bd9a
+    border: 1px solid #19bd9a
 
 .aboutdetails
     background-color: #f3f3f3
@@ -143,6 +144,11 @@
 
 .svgrow
     padding-top: 2.5rem
+
+.svggroup
+    display: flex
+    flex: wrap
+    justify-content: center
 
 .row89
     padding-top: 0.6%
@@ -181,9 +187,8 @@
     letter-spacing: 0.8px
     color: #636971
 
-.work
+#work
     background-color: white
-    // height: 634px;
     padding-bottom: 3%
 
 .text10
@@ -199,6 +204,26 @@
 .work2
     height: 415px
 
+#vintage
+    position: absolute
+    top: 45%
+    left: 28%
+    color: white
+    font-family: 'open_sansregular'
+    font-size: 30px
+    font-weight: 500
+    letter-spacing: 3px
+
+#vintage1
+    position: absolute
+    top: 45%
+    left: 26%
+    color: white
+    font-family: 'open_sansregular'
+    font-size: 30px
+    font-weight: 500
+    letter-spacing: 3px
+
 .photowork
     height: 305px
 
@@ -209,7 +234,7 @@
     background-size: cover
 
 .legs1
-    padding-top: 3.4%
+    padding-top: 4%
     padding-left: 4.4%
 
 .submit
@@ -218,10 +243,10 @@
     font-size: 18px
     font-weight: 400
     letter-spacing: 0.6px
+    padding-top: .5%
 
 .btnlegs
     padding-left: 6.5%
-    
 
 .text10a
     @extend %sans
@@ -305,7 +330,6 @@
 .circular-chart .circle
     stroke: #3a9093
 
-
 .percentage
     fill: #666
     font-family: sans-serif
@@ -327,7 +351,7 @@
 .name2
     padding-right: 22%
 
-.services
+#services
     background-color: #f3f3f3
 
 .accusamus
@@ -363,9 +387,6 @@
 .cardprice
     padding-left: 0%
     padding-right: 0px
-    // display: flex
-    // flex-wrap: wrap
-    // min-width: 100px
 
 .card-h
     height: 127%
@@ -390,9 +411,15 @@
     font-size: 40px
     font-weight: 1000
     letter-spacing: normal
-    font-family: 'Source Sans Pro'
     text-decoration: uppercase
-    padding-top: 30px
+    padding-top: 40px
+
+.card-body a:hover
+    text-decoration: none !important
+
+.titleone:hover
+    color: #1fbba6
+    background-color: #ffffff
 
 .titleone
     margin-bottom: 0px
@@ -408,7 +435,26 @@
     font-family: 'open_sansregular'
     font-weight: 500
     text-align: left
-    padding: 15px
+    padding: 21px
+    margin-bottom: 0px !important
+
+.cardrow1
+    padding-bottom: 7rem
+
+#Capa
+    position: absolute
+    top: 19%
+    left: 40%
+
+#Capa1
+    position: absolute
+    top: 19%
+    left: 40%
+
+#Capa2
+    position: absolute
+    top: 19%
+    left: 40%
 
 .contacts
     color: #464646
@@ -451,15 +497,11 @@
     padding-right: 20px !important
     padding-left: 20px !important
 
-.area1
-    padding-left: 10px !important
-    padding-right: 10px !important
+.submitbtn
     background-color: #19bd9a
 
 .map
     background-image: url(../img/map2.jpg)
-    // filter: grayscale(100%)
-    // filter: black
     height: 472px
     background-repeat: no-repeat
     background-size: cover
@@ -487,7 +529,6 @@
 
 #bouncy1
     color: #323a45
-    // color: #030303;
     font-family: 'big_johnregular'
     font-size: 24px
     font-weight: 400
