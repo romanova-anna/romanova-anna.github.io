@@ -39,7 +39,7 @@
 }
 
 .navbar-menu {
-  font-family: 'TT Lakes Condensed';
+  font-family: 'Caveat', cursive;
   font-size: 20px;
   font-weight: bold;
   justify-content: space-between;
@@ -77,19 +77,19 @@
 }
 
 .wave-parallax1 {
-  animation: wave-move1 10s linear infinite;
+  animation: wave-move1 12s linear infinite;
 }
 
 .wave-parallax2 {
-  animation: wave-move2 8s linear infinite;
+  animation: wave-move2 10s linear infinite;
 }
 
 .wave-parallax3 {
-  animation: wave-move3 6s linear infinite;
+  animation: wave-move3 8s linear infinite;
 }
 
 .wave-parallax4 {
-  animation: wave-move4 4s linear infinite;
+  animation: wave-move4 6s linear infinite;
 }
 
 @keyframes wave-move1 {
@@ -137,9 +137,6 @@
 }
 
 .about {
-  background-image: url(../img/photo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
 }
 
@@ -148,34 +145,48 @@
 }
 
 .box1 {
-  height: 500px;
-  background: #2ea39f;
-  font-size: 20px;
-  padding: 16%;
+  font-size: 25px;
+  padding: 10%;
   color: black;
+  font-family: 'Caveat', cursive;
+}
+
+.dark-block1 {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%231c968b' fill-opacity='0.14' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.dark-bg1 {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%231c968b' fill-opacity='0.14' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 .col2 {
   padding-top: 5%;
 }
 
-.photo {
-  flex-direction: row;
-  flex-wrap: wrap;
-  display: flex;
+.slider {
+  height: 600px;
 }
 
-.scale:hover {
-  transform: scale(1.4);
+.box2 {
+  font-size: 25px;
+  padding-top: 10%;
+  padding-right: 10%;
+  color: black;
+  font-family: 'Caveat', cursive;
 }
 
-.scale {
-  transition: 1s;
+.box3 {
+  font-size: 25px;
+  padding-top: 7%;
+  padding-left: 15%;
+  color: black;
+  font-family: 'Caveat', cursive;
 }
 
 .contact {
-  font-family: 'TT Lakes Condensed';
-  font-weight: bold;
+  font-family: 'Caveat', cursive;
+  color: black;
   font-size: 20px;
   background-color: white;
   padding-bottom: 30px;
@@ -183,12 +194,20 @@
   line-height: 1;
 }
 
+.contact1 {
+  font-weight: 600;
+}
+
+.tel1 a {
+  text-decoration: none;
+  color: black;
+}
+
 .form {
   width: 30vw;
   height: 20%;
   border-radius: 10px;
-  font-family: 'TT Lakes Condensed';
-  font-weight: bold;
+  font-family: 'Caveat', cursive;
 }
 
 .button {
@@ -197,11 +216,11 @@
 }
 
 .button button {
+  font-family: 'Caveat', cursive;
+  color: black;
   font-size: 20px;
-  background: rgba(3, 179, 164, 0.603);
   border-radius: 10px;
   padding: 2% 5% 2% 5%;
-  font-family: 'TT Lakes Condensed';
   font-weight: bold;
   box-shadow: 5px 7px 7px -2px rgba(46, 50, 50, 0.92);
 }
@@ -211,7 +230,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   line-height: 1;
-  font-family: 'TT Lakes Condensed';
+  font-family: 'Caveat', cursive;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.192);
 }
@@ -219,4 +238,8 @@
 .social {
   list-style: none;
   padding: 0;
+}
+
+.item {
+  display: inline-block;
 }

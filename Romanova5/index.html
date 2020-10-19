@@ -7,20 +7,26 @@
     <title>Фотограф|Нижний Новгород</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
     <link rel="stylesheet" href="css/media.css">
     <script src="js/bootstrap.js"></script>
     <link rel="icon" href="img/logo.gif" type="image">
     <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/slider.css"> 
+	<script src="js/slider/modernizr.js"></script> 
+    
 </head>
 
 <body>
     <div id="page-preloader">
         <div class="spinner"></div>
     </div>
-    <section class="home"> 
+    <section class="home">
         <div class="container-fluid">
             <div class="row nav">
                 <div class="col-12">
@@ -85,10 +91,10 @@
                     </svg>
                     <div class="dark-block">
                         <div class="row header">
-                            <div class="col-md-12 pt-5">
+                            <div class="col-md-12 pt-5 wow fadeInDown" data-wow-delay="1s">
                                 <h1 class="title">Romanova Anna</h1>
                             </div>
-                            <div class="col-md-12 pt-3 pb-5">
+                            <div class="col-md-12 pt-3 pb-5 wow fadeInDown" data-wow-delay="1s">
                                 <h2 class="title1">Фотограф</h2>
                             </div>
                         </div>
@@ -111,94 +117,254 @@
                 </div>
             </div>
         </div>
-    </section> -->
-
-    <section class="about">
+    </section>
+    <section class="about"> 
         <div class="container-fluid">
-            <div class="row pt-4"></div>
+            <div class="row pt-5"></div>
             <div class="row">
                 <div class="col-6 col1">
                     <div class="box1">
-                        <p>Привет всем! Меня зовут Романова Анна. </p>
-                        <p>Если вы хотите обновить свои фотографии, у Вас есть давняя мечта сфотографироваться где-то
+                        <p class="wow fadeInDown">Привет! Меня зовут Романова Анна. </p>
+                        <p class="wow fadeInDown">Если Вы хотите обновить свои фотографии, у Вас есть давняя мечта
+                            сфотографироваться где-то
                             или с кем-то, или у Вас есть идеи для съемок (даже самые необычные!) я рада буду помочь Вам
                             в осуществлении всех вышеперечисленных задумок!</p>
                     </div>
-
                 </div>
                 <div class="col-6 text-left col2">
-                    <img src="img/I_am.png" width="50%" alt="">
+                    <img class="wow fadeInRight" data-wow-delay="1s" src="img/I_am.png" width="50%" alt="">
                 </div>
             </div>
-
-        </div>
-    </section> -->
-
-    <section class="slider">
-        <div class="container-fluid">
-            <div class="row"></div>
             <div class="row">
-                <div class="col-12">
+                <img src="img/line.png" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="slider"> 
+        <div class="container-fluid">
+            <div class="row pt-5"></div>
+            <div class="row">
+                <div class="col-8">
+                    <figure class="cd-image-container">
+                        <img src="img/img-original.jpg" alt="Original Image">
+                        <span class="cd-image-label" data-type="original">После</span>
+                        <div class="cd-resize-img"> 
+                            <img src="img/img-modified.jpg" alt="Modified Image">
+                            <span class="cd-image-label" data-type="modified">До</span>
+                        </div>
+                        <span class="cd-handle"></span> 
+                    </figure>
+                </div>
+                <div class="col-4 wow fadeInRight box2">
+                    <p>Профессиональная обработка фотографий:</p>
+                    <img src="img/arrow.png" alt="">
                 </div>
             </div>
         </div>
+    </section>
+    <section class="book">
+        <div class="container-fluid">
+            <div class="row pt-5">
+                <img src="img/line2.png" alt="">
+            </div>
+            <div class="row pt-5">
+                <div class="col-6 box3">
+                    <p>При заказе свадебной фотосессии - фотокнига в подарок!</p>
+                    <img src="img/arrow2.jpg" alt="">
+                </div>
+                <div class="col-6 pr-5">
+                    <img src="img/book.jpg" alt="">
+                </div>
+            </div>
+            <div class="row pt-5">
+                <img src="img/line3.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
 
-    </section> -->
-    <div class="cons">
-        <div class="col-md-12 title">
-            <h2>Контакты</h2>
-        </div>
-    </div>
-    <div class="row contact">
-        <div class="col-2"></div>
-        <div class="col-4 text-right pt-5">
-            <img src="img/Iam2.png" width="300px" alt="Photographer of Nizhny Novgorod">
-        </div>
-        <div class="col-4 tel">
-            <section class="tel1">
-                <p>Телефон/Viber:</p><br>
-                <p><a href="tel:+79876543210">+7 (987) 654-32-10</a></p>
-                <p><a href="mailto:milushkova@gmail.com">milushkova@gmail.com</a></p>
-                <p>или воспользуйтесь формой ниже:</p>
-            </section>
-            <section class="form">
-                <form action="post.php" method="post" class="form">
-                    <input name="name" type="text" placeholder="Имя" />
-                    <br>
-                    <input name="email" type="text" placeholder="Телефон/Email" />
-                    <br>
-                    <textarea cols="36" name="message" rows="6" placeholder="Ваше сообщение"></textarea>
-                    <br>
-                    <label>
-                        <input type="radio" name="title" value="print">Печать фото?
-                    </label>
-                    <div class="button">
-                        <button type="button" class="btn btn-light">Отправить сообщение</button>
+    </section>
+    <section class="contact"> 
+        <div class="col-12 px-0">
+            <svg class="wave-divider" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none">
+                <defs>
+                    <path id="gentle-wave" d="M-160 44c30 0 
+                    58-18 88-18s
+                    58 18 88 18 
+                    58-18 88-18 
+                    58 18 88 18
+                    v44h-352z" />
+                </defs>
+                <g class="wave-parallax1">
+                    <use xlink:href="#gentle-wave" x="50" y="3" fill="#45d0cb" />
+                </g>
+                <g class="wave-parallax2">
+                    <use xlink:href="#gentle-wave" x="50" y="0" fill="#a5aaaa" />
+                </g>
+                <g class="wave-parallax3">
+                    <use xlink:href="#gentle-wave" x="50" y="9" fill="#416766" />
+                </g>
+                <g class="wave-parallax4">
+                    <use xlink:href="#gentle-wave" x="50" y="6" fill="#2ea39f" />
+                </g>
+            </svg>
+            <div class="dark-block">
+                <div class="row pt-5 pb-4 justify-content-center">
+                    <h2 contact1>Контакты</h2>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-4 text-right pt-5">
+                        <img src="img/Iam2.png" width="300px" alt="Photographer of Nizhny Novgorod">
                     </div>
-                </form>
-            </section>
-
-
+                    <div class="col-4 tel">
+                        <div class="tel1">
+                            <p>Телефон/Viber:</p><br>
+                            <p><a href="tel:+79876543210">+7 (987) 654-32-10</a></p>
+                            <p><a href="mailto:milushkova@gmail.com">milushkova@gmail.com</a></p>
+                            <p>или воспользуйтесь формой ниже:</p>
+                        </div>
+                        <div class="form">
+                            <form action="post.php" method="post" class="form">
+                                <input name="name" type="text" placeholder="Имя" />
+                                <br>
+                                <input name="email" type="text" placeholder="Телефон/Email" />
+                                <br>
+                                <textarea cols="36" name="message" rows="6" placeholder="Ваше сообщение"></textarea>
+                                <br>
+                                <label>
+                                    <input type="radio" name="title" value="print">Печать фото?
+                                </label>
+                                <div class="button">
+                                    <button type="button" class="btn btn-outline-dark">Отправить сообщение</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <svg class="wave-divider dark-bg" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+                        <g class="wave-parallax1">
+                            <use xlink:href="#gentle-wave" x="50" y="3" fill="#a5aaaa" />
+                        </g>
+                        <g class="wave-parallax2">
+                            <use xlink:href="#gentle-wave" x="50" y="0" fill="#416766" />
+                        </g>
+                        <g class="wave-parallax3">
+                            <use xlink:href="#gentle-wave" x="50" y="9" fill="#45d0cb" />
+                        </g>
+                        <g class="wave-parallax4">
+                            <use xlink:href="#gentle-wave" x="50" y="6" fill="#ffffff" />
+                        </g>
+                    </svg>
+                </div>
+            </div>
+    </section>
+    <section class="footer">
+        <div class="row pb-4">
+            <div class="col-12">
+                <div class="item">
+                    <a href="https://vk.com/milushkova" target="_bank">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="51px" height="51px"
+                            viewBox="0 0 548.358 548.358" style="enable-background:new 0 0 548.358 548.358;"
+                            xml:space="preserve">
+                            <g>
+                                <path d="M545.451,400.298c-0.664-1.431-1.283-2.618-1.858-3.569c-9.514-17.135-27.695-38.167-54.532-63.102l-0.567-0.571
+                                    l-0.284-0.28l-0.287-0.287h-0.288c-12.18-11.611-19.893-19.418-23.123-23.415c-5.91-7.614-7.234-15.321-4.004-23.13
+                                    c2.282-5.9,10.854-18.36,25.696-37.397c7.807-10.089,13.99-18.175,18.556-24.267c32.931-43.78,47.208-71.756,42.828-83.939
+                                    l-1.701-2.847c-1.143-1.714-4.093-3.282-8.846-4.712c-4.764-1.427-10.853-1.663-18.278-0.712l-82.224,0.568
+                                    c-1.332-0.472-3.234-0.428-5.712,0.144c-2.475,0.572-3.713,0.859-3.713,0.859l-1.431,0.715l-1.136,0.859
+                                    c-0.952,0.568-1.999,1.567-3.142,2.995c-1.137,1.423-2.088,3.093-2.848,4.996c-8.952,23.031-19.13,44.444-30.553,64.238
+                                    c-7.043,11.803-13.511,22.032-19.418,30.693c-5.899,8.658-10.848,15.037-14.842,19.126c-4,4.093-7.61,7.372-10.852,9.849
+                                    c-3.237,2.478-5.708,3.525-7.419,3.142c-1.715-0.383-3.33-0.763-4.859-1.143c-2.663-1.714-4.805-4.045-6.42-6.995
+                                    c-1.622-2.95-2.714-6.663-3.285-11.136c-0.568-4.476-0.904-8.326-1-11.563c-0.089-3.233-0.048-7.806,0.145-13.706
+                                    c0.198-5.903,0.287-9.897,0.287-11.991c0-7.234,0.141-15.085,0.424-23.555c0.288-8.47,0.521-15.181,0.716-20.125
+                                    c0.194-4.949,0.284-10.185,0.284-15.705s-0.336-9.849-1-12.991c-0.656-3.138-1.663-6.184-2.99-9.137
+                                    c-1.335-2.95-3.289-5.232-5.853-6.852c-2.569-1.618-5.763-2.902-9.564-3.856c-10.089-2.283-22.936-3.518-38.547-3.71
+                                    c-35.401-0.38-58.148,1.906-68.236,6.855c-3.997,2.091-7.614,4.948-10.848,8.562c-3.427,4.189-3.905,6.475-1.431,6.851
+                                    c11.422,1.711,19.508,5.804,24.267,12.275l1.715,3.429c1.334,2.474,2.666,6.854,3.999,13.134c1.331,6.28,2.19,13.227,2.568,20.837
+                                    c0.95,13.897,0.95,25.793,0,35.689c-0.953,9.9-1.853,17.607-2.712,23.127c-0.859,5.52-2.143,9.993-3.855,13.418
+                                    c-1.715,3.426-2.856,5.52-3.428,6.28c-0.571,0.76-1.047,1.239-1.425,1.427c-2.474,0.948-5.047,1.431-7.71,1.431
+                                    c-2.667,0-5.901-1.334-9.707-4c-3.805-2.666-7.754-6.328-11.847-10.992c-4.093-4.665-8.709-11.184-13.85-19.558
+                                    c-5.137-8.374-10.467-18.271-15.987-29.691l-4.567-8.282c-2.855-5.328-6.755-13.086-11.704-23.267
+                                    c-4.952-10.185-9.329-20.037-13.134-29.554c-1.521-3.997-3.806-7.04-6.851-9.134l-1.429-0.859c-0.95-0.76-2.475-1.567-4.567-2.427
+                                    c-2.095-0.859-4.281-1.475-6.567-1.854l-78.229,0.568c-7.994,0-13.418,1.811-16.274,5.428l-1.143,1.711
+                                    C0.288,140.146,0,141.668,0,143.763c0,2.094,0.571,4.664,1.714,7.707c11.42,26.84,23.839,52.725,37.257,77.659
+                                    c13.418,24.934,25.078,45.019,34.973,60.237c9.897,15.229,19.985,29.602,30.264,43.112c10.279,13.515,17.083,22.176,20.412,25.981
+                                    c3.333,3.812,5.951,6.662,7.854,8.565l7.139,6.851c4.568,4.569,11.276,10.041,20.127,16.416
+                                    c8.853,6.379,18.654,12.659,29.408,18.85c10.756,6.181,23.269,11.225,37.546,15.126c14.275,3.905,28.169,5.472,41.684,4.716h32.834
+                                    c6.659-0.575,11.704-2.669,15.133-6.283l1.136-1.431c0.764-1.136,1.479-2.901,2.139-5.276c0.668-2.379,1-5,1-7.851
+                                    c-0.195-8.183,0.428-15.558,1.852-22.124c1.423-6.564,3.045-11.513,4.859-14.846c1.813-3.33,3.859-6.14,6.136-8.418
+                                    c2.282-2.283,3.908-3.666,4.862-4.142c0.948-0.479,1.705-0.804,2.276-0.999c4.568-1.522,9.944-0.048,16.136,4.429
+                                    c6.187,4.473,11.99,9.996,17.418,16.56c5.425,6.57,11.943,13.941,19.555,22.124c7.617,8.186,14.277,14.271,19.985,18.274
+                                    l5.708,3.426c3.812,2.286,8.761,4.38,14.853,6.283c6.081,1.902,11.409,2.378,15.984,1.427l73.087-1.14
+                                    c7.229,0,12.854-1.197,16.844-3.572c3.998-2.379,6.373-5,7.139-7.851c0.764-2.854,0.805-6.092,0.145-9.712
+                                    C546.782,404.25,546.115,401.725,545.451,400.298z" />
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.instagram.com/romanova.a.v/" target="_bank">
+                        <svg width="51px" height="51px" style="enable-background:new 0 0 512 512;" version="1.1"
+                            viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="_x36_2-instagram">
+                                <g>
+                                    <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="65.9038"
+                                        x2="446.3573" y1="444.4766" y2="64.0231">
+                                        <stop offset="0" style="stop-color:#FFC107" />
+                                        <stop offset="0.2211" style="stop-color:#F98D1C" />
+                                        <stop offset="0.5137" style="stop-color:#F1423B" />
+                                        <stop offset="0.8329" style="stop-color:#B93088" />
+                                        <stop offset="0.9944" style="stop-color:#9C27B0" />
+                                    </linearGradient>
+                                    <path
+                                        d="M343.193,22H168.32C87.854,22,23,86.863,23,166.958v174.079    C23,421.137,87.854,487,168.32,487h174.873C423.66,487,490,421.137,490,341.037V166.958C490,86.863,423.66,22,343.193,22z     M446,341.037C446,397.025,399.438,443,343.193,443H168.32C112.071,443,66,397.025,66,341.037V166.958    C66,110.973,112.071,65,168.32,65h174.873C399.438,65,446,110.973,446,166.958V341.037z"
+                                        style="fill:url(#SVGID_1_);" />
+                                    <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_2_" x1="173.5107"
+                                        x2="338.0032" y1="336.2451" y2="171.7527">
+                                        <stop offset="0" style="stop-color:#FFC107" />
+                                        <stop offset="0.2211" style="stop-color:#F98D1C" />
+                                        <stop offset="0.5137" style="stop-color:#F1423B" />
+                                        <stop offset="0.8329" style="stop-color:#B93088" />
+                                        <stop offset="0.9944" style="stop-color:#9C27B0" />
+                                    </linearGradient>
+                                    <path
+                                        d="M255.756,137.947c-64.382,0-116.581,51.961-116.581,116.055    c0,64.085,52.199,116.045,116.581,116.045c64.383,0,116.58-51.96,116.58-116.045C372.336,189.908,320.139,137.947,255.756,137.947    z M255.756,326.531c-40.164,0-72.86-32.551-72.86-72.529c0-40.016,32.696-72.534,72.86-72.534    c40.162,0,72.861,32.519,72.861,72.534C328.617,293.98,295.918,326.531,255.756,326.531z"
+                                        style="fill:url(#SVGID_2_);" />
+                                    <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_3_" x1="370.1182"
+                                        x2="392.037" y1="140.2031" y2="118.2843">
+                                        <stop offset="0" style="stop-color:#FFC107" />
+                                        <stop offset="0.2211" style="stop-color:#F98D1C" />
+                                        <stop offset="0.5137" style="stop-color:#F1423B" />
+                                        <stop offset="0.8329" style="stop-color:#B93088" />
+                                        <stop offset="0.9944" style="stop-color:#9C27B0" />
+                                    </linearGradient>
+                                    <path
+                                        d="M381.08,113.779c-8.581,0-15.538,6.924-15.538,15.463c0,8.54,6.957,15.467,15.538,15.467    c8.573,0,15.532-6.927,15.532-15.467C396.612,120.703,389.653,113.779,381.08,113.779z"
+                                        style="fill:url(#SVGID_3_);" />
+                                </g>
+                            </g>
+                            <g id="Layer_1" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-2"></div>
-    </div>
-    <div class="row footer">
-        <div class="col-12">
-            <ul class="social">
-                <li class="item"><a href="https://vk.com/milushkova" target="_bank"><img src="img/vk.ico" width="40"
-                            alt="vk"></a></li>
-                <li class="item"><a href="https://www.instagram.com/romanova.a.v/" target="_bank"><img
-                            src="img/instagram.ico" width="40" alt="instagram"></a></li>
-            </ul>
-            <p>Фотограф Анна Романова</p>
-            <p>г. Нижний Новгород</p>
-            <p>2020</p>
-
+        <div class="row">
+            <div class="col-12">
+                <p>Фотограф Анна Романова</p>
+                <p>г. Нижний Новгород</p>
+                <p>2020</p>
+            </div>
         </div>
-
-    </div>
-
-    </div>
+    </section>
+    <script src="js/slider/jquery-2.1.1.js"></script>
+    <script src="js/slider/jquery.mobile.custom.min.js"></script>
+    <script src="js/slider/main.js"></script> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
@@ -208,15 +374,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script type="text/javascript">
-            $(window).on('load', function () {
-                var $preloader = $('#page-preloader'),
-                    $svg_anm = $preloader.find('.svg_anm');
-                $svg_anm.fadeOut();
-                $preloader.delay(500).fadeOut('spinner');
-            });
-        </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            var $preloader = $('#page-preloader'),
+                $svg_anm = $preloader.find('.svg_anm');
+            $svg_anm.fadeOut();
+            $preloader.delay(500).fadeOut('spinner');
+        });
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
