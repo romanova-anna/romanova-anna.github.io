@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/slider.css"> 
-
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    
     <link rel="icon" href="img/logo.gif" type="image">
+    <script src="js/slider/modernizr.js"></script>
+    <link rel="stylesheet" href="css/uikit/uikit.min.css">
+    <script src="js/uikit/uikit.min.js"></script>
+    <script src="js/uikit/uikit-icons.min.js"></script>
 
-	<script src="js/slider/modernizr.js"></script> 
-    
 </head>
 
 <body>
@@ -38,25 +38,17 @@
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+                            <ul class=" wow fadeInDown navbar-nav uk-subnav ml-auto uk-subnav-divider uk-flex-center"
+                                uk-margin>
+                                <li class="nav-item px-3">
+                                    <a class="nav-link active" href="#">Главная<span
+                                            class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Портфолио</a>
+                                <li class="nav-item px-3 active">
+                                    <a class="nav-link active" href="#portfolio">Портфолио</a>
                                 </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Контакты</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src="img/en.jpg" width="20" alt="rus">
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#"><img src="img/RUS.ico" width="20"
-                                                alt="rus"></a>
-                                    </div>
+                                <li class="nav-item px-3 active">
+                                    <a class="nav-link active" href="#contact">Контакты</a>
                                 </li>
                             </ul>
                         </div>
@@ -117,62 +109,60 @@
             </div>
         </div>
     </section>
-    <section class="about"> 
+    <section class="about">
         <div class="container-fluid">
             <div class="row pt-5"></div>
             <div class="row">
                 <div class="col-6 col1">
                     <div class="box1">
-                        <p class="wow fadeInDown">Привет! Меня зовут Романова Анна. </p>
+                        <p class="wow fadeInDown pb-5">Привет! Меня зовут Анна. </p>
                         <p class="wow fadeInDown">Если Вы хотите обновить свои фотографии, у Вас есть давняя мечта
                             сфотографироваться где-то
-                            или с кем-то, или у Вас есть идеи для съемок (даже самые необычные!) я рада буду помочь Вам
-                            в осуществлении всех вышеперечисленных задумок!</p>
+                            или с кем-то, я буду рада помочь Вам
+                            в осуществлении всех Ваших задумок!</p>
                     </div>
                 </div>
-                <div class="col-6 text-left col2">
-                    <img class="wow fadeInRight" data-wow-delay="1s" src="img/I_am.png" width="50%" alt="">
+                <div class="col-6 text-left pt-4 col2">
+                    <img class="wow fadeInRight" data-wow-delay="1s" src="img/I_am.jpg" width="50%" alt="">
                 </div>
             </div>
             <div class="row">
                 <img src="img/line.png" alt="">
             </div>
         </div>
-        </div>
     </section>
-    <section class="slider"> 
+    <section class="slider">
         <div class="container-fluid">
-            <div class="row pt-5"></div>
-            <div class="row">
+            <div class="row pt-5">
                 <div class="col-8">
                     <figure class="cd-image-container">
                         <img src="img/img-original.jpg" alt="Original Image">
                         <span class="cd-image-label" data-type="original">После</span>
-                        <div class="cd-resize-img"> 
+                        <div class="cd-resize-img">
                             <img src="img/img-modified.JPG" alt="Modified Image">
                             <span class="cd-image-label" data-type="modified">До</span>
                         </div>
-                        <span class="cd-handle"></span> 
+                        <span class="cd-handle"></span>
                     </figure>
                 </div>
                 <div class="col-4 wow fadeInRight box2">
                     <p>Профессиональная обработка фотографий:</p>
                     <img src="img/arrow.png" alt="">
                 </div>
+                <div class="row pt-4">
+                    <img src="img/line2.png" alt="">
+                </div>
             </div>
         </div>
     </section>
     <section class="book">
         <div class="container-fluid">
-            <div class="row pt-5">
-                <img src="img/line2.png" alt="">
-            </div>
-            <div class="row pt-5">
-                <div class="col-6 box3">
+            <div class="row bookrow ">
+                <div class="col-6 box3 wow fadeInRight">
                     <p>При заказе свадебной фотосессии - фотокнига в подарок!</p>
                     <img src="img/arrow2.jpg" alt="">
                 </div>
-                <div class="col-6 pr-5">
+                <div class="col-6 wow fadeInRight pr-5">
                     <img src="img/book.jpg" alt="">
                 </div>
             </div>
@@ -181,7 +171,182 @@
             </div>
         </div>
     </section>
-    <section class="contact"> 
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 wow fadeInRight">
+                    <h2 class="portfoliorow">Портфолио</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="pt-5 pb-5" uk-filter="target: .js-filter">
+                    <ul class=" pb-4 uk-subnav uk-subnav-divider uk-flex-center" uk-margin>
+                        <li uk-filter-control="">
+                            <a href="#">Все фотографии</a>
+                        </li>
+                        <li uk-filter-control=".portrait" class="uk-active">
+                            <a href="#">Портрет</a>
+                        </li>
+                        <li uk-filter-control=".wedding">
+                            <a href="#">Свадебные фотографии</a>
+                        </li>
+                        <li uk-filter-control=".love">
+                            <a href="#">love-story</a>
+                        </li>
+                        <li uk-filter-control=".reportage">
+                            <a href="#">Репортаж</a>
+                        </li>
+                    </ul>
+                    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait1.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait2.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait3.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait16.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait4.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait18.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait7.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait8.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="portrait">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/portrait/portrait6.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+
+                        <li class="reportage">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/reportage/reportage1.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="reportage">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/reportage/reportage2.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="reportage">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/reportage/reportage3.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="reportage">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/reportage/reportage4.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="reportage">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/reportage/reportage5.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+
+                        <li class="love">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/love/love1.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="love">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/love/love2.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="love">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/love/love3.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="love">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/love/love4.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="love">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/love/love5.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding1.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding2.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding3.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding4.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding5.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding6.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding7.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding8.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                        <li class="wedding">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <img src="img/wedding/wedding9.jpg" width="250px" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row"></div>
+            </div>
+    </section>
+    <section class="contact" id="contact">
         <div class="col-12 px-0">
             <svg class="wave-divider" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28" preserveAspectRatio="none">
@@ -207,59 +372,73 @@
                 </g>
             </svg>
             <div class="dark-block">
-                <div class="row pt-5 pb-4 justify-content-center">
-                    <h2 contact1>Контакты</h2>
+                <div class="row pt-5 pb-4 justify-content-center ">
+                    <h2 class="contact1 wow fadeInRight">Контакты</h2>
                 </div>
-                <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-4 text-right pt-5">
-                        <img src="img/Iam2.png" width="300px" alt="Photographer of Nizhny Novgorod">
+                <div class="row text-center tel4">
+                    <div class="col-12 wow fadeInRight">
+                        <p>Всегда на связи с вами</p>
                     </div>
-                    <div class="col-4 tel">
-                        <div class="tel1">
-                            <p>Телефон/Viber:</p><br>
-                            <p><a href="tel:+79876543210">+7 (987) 654-32-10</a></p>
-                            <p><a href="mailto:milushkova@gmail.com">milushkova@gmail.com</a></p>
-                            <p>или воспользуйтесь формой ниже:</p>
-                        </div>
-                        <div class="form">
-                            <form action="post.php" method="post" class="form">
-                                <input name="name" type="text" placeholder="Имя" />
-                                <br>
-                                <input name="email" type="text" placeholder="Телефон/Email" />
-                                <br>
-                                <textarea cols="36" name="message" rows="6" placeholder="Ваше сообщение"></textarea>
-                                <br>
-                                <label>
-                                    <input type="radio" name="title" value="print">Печать фото?
-                                </label>
-                                <div class="button">
-                                    <button type="button" class="btn btn-outline-dark">Отправить сообщение</button>
-                                </div>
-                            </form>
-                        </div>
+                </div>
+                <div class="row text-center tel5">
+                    <div class="col-4"></div>
+                    <div class="col-4 wow fadeInRight">
+                        <p>
+                            Задайте вопрос, уточните доступность вашей даты. <br> Свяжитесь со мной!</p>
                     </div>
-                    <svg class="wave-divider dark-bg" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
-                        <g class="wave-parallax1">
-                            <use xlink:href="#gentle-wave" x="50" y="3" fill="#a5aaaa" />
-                        </g>
-                        <g class="wave-parallax2">
-                            <use xlink:href="#gentle-wave" x="50" y="0" fill="#416766" />
-                        </g>
-                        <g class="wave-parallax3">
-                            <use xlink:href="#gentle-wave" x="50" y="9" fill="#45d0cb" />
-                        </g>
-                        <g class="wave-parallax4">
-                            <use xlink:href="#gentle-wave" x="50" y="6" fill="#ffffff" />
-                        </g>
-                    </svg>
+                    <div class="col-4"></div>
+                </div>
+                <div class="row pt-4 text-center ">
+                    <div class="col-4"></div>
+                    <div class="col-4 wow fadeInLeft">
+                        <form action="post.php" method="post">
+                            <div class="col">
+                                <label for="exampleFormControlTextarea1"></label>
+                                <input type="text" class="form-control py-4 pl-0 name" placeholder="Имя (Name)*">
+                            </div>
+                            <div class="col">
+                                <label for="exampleFormControlTextarea1"></label>
+                                <input type="text" class="form-control py-4 pl-0 name" placeholder="E-mail*">
+                            </div>
+                            <div class="col">
+                                <label for="exampleFormControlTextarea1"></label>
+                                <input type="text" class="form-control py-4 pl-0 name" placeholder="Телефон (Phone)*">
+                            </div>
+                            <div class="col">
+                                <label for="exampleFormControlTextarea1"></label>
+                                <textarea class="form-control pl-0 name" id="exampleFormControlTextarea1" rows="4"
+                                    placeholder="Сообщение (Message)"></textarea>
+                            </div>
+                            <div class="col pt-5 pb-5">
+                                <button type="submit" class="btn btn-lg btn-outline-dark tel4" role="button"
+                                    data-toggle="button" aria-pressed="false">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4"></div>
                 </div>
             </div>
+            <svg class="wave-divider dark-bg" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none">
+                <g class="wave-parallax1">
+                    <use xlink:href="#gentle-wave" x="50" y="3" fill="#a5aaaa" />
+                </g>
+                <g class="wave-parallax2">
+                    <use xlink:href="#gentle-wave" x="50" y="0" fill="#416766" />
+                </g>
+                <g class="wave-parallax3">
+                    <use xlink:href="#gentle-wave" x="50" y="9" fill="#45d0cb" />
+                </g>
+                <g class="wave-parallax4">
+                    <use xlink:href="#gentle-wave" x="50" y="6" fill="#ffffff" />
+                </g>
+            </svg>
+        </div>
+        </div>
     </section>
     <section class="footer">
         <div class="row pb-4">
-            <div class="col-12">
+            <div class="col-12 wow fadeInDown">
                 <div class="item">
                     <a href="https://vk.com/milushkova" target="_bank">
                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -350,8 +529,10 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
+        <div class="row linkrow">
+            <div class="col-12 wow fadeInDown linktel">
+                <p><a href="tel:+79876543210">+7 (987) 654-32-10</a></p>
+                <p><a href="mailto:milushkova@gmail.com">milushkova@gmail.com</a></p>
                 <p>Фотограф Анна Романова</p>
                 <p>г. Нижний Новгород</p>
                 <p>2020</p>
@@ -360,7 +541,7 @@
     </section>
     <script src="js/slider/jquery-2.1.1.js"></script>
     <script src="js/slider/jquery.mobile.custom.min.js"></script>
-    <script src="js/slider/main.js"></script> 
+    <script src="js/slider/main.js"></script>
 
     <script src="js/wow.min.js"></script>
     <script>
